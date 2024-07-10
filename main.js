@@ -10,5 +10,9 @@
 // }
 
 // ********Task 2
-// const arrayNumber = [1, 2, 3, 4, 5, 6, 7];
-// let lastNumber = arrayNumber.pop();
+const arrayNumber = [1, 2, 3, 4, 5, 6, 7];
+let lastNumber = arrayNumber.pop();
+arrayNumber.pop();
+arrayNumber.pop();
+arrayNumber.push(lastNumber);
+console.log(arrayNumber);
